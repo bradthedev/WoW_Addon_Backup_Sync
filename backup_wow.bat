@@ -32,5 +32,4 @@ robocopy "D:\WoWBackUp" "%destDir%" /NFL /COPY:DAT /MT:32 /R:1 /W:1 /NP || (echo
 
 echo.
 echo Backup process completed successfully.
-pause
 exit /b 0
